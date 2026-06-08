@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "armis-knowledge-stage": {
+      "command": "${CLAUDE_PLUGIN_ROOT}/run.sh",
+      "env": {
+        "ARMIS_KNOWLEDGE_API_URL": "${ARMIS_KNOWLEDGE_API_URL_STAGE:-https://knowledge-api.moose-stg.armis.com}",
+        "ARMIS_KNOWLEDGE_MCP_URL": "${ARMIS_KNOWLEDGE_MCP_URL_STAGE:-https://knowledge-mcp.moose-stg.armis.com/mcp/}"
+      }
+    }
+  }
+}
